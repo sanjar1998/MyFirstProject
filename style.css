@@ -1,0 +1,34 @@
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.instafeed {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.instafeed-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 360px;
+}
+
+.instafeed-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.instafeed-item button {
+  padding: 10px;
+}
