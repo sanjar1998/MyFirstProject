@@ -31,4 +31,18 @@
 
 .instafeed-item button {
   padding: 10px;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 1px solid tomato;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.instafeed-item button:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
+.instafeed-item button:active {
+  opacity: .7;
 }
